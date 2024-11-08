@@ -1,0 +1,490 @@
+.america, .index, body{
+background-image: url(images/america/san\ fransisco/Alcatraz);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 70%;
+  margin: 0;
+  background-position: center;
+}
+
+.europe, body{
+  background-image: url('images/europe/eiffelNight.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70%;
+    background-position: center;
+  }
+
+  .asia, body{
+    background-image: url('images/asia/Japan/crab.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+
+h1 {
+    color: darkblue;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: darkcyan;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float:left;
+    color:floralwhite;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    height: 30px;
+    z-index: 3;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #214666;
+    color: darkkhaki;
+  }
+
+#title{
+    color:darkblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 120%;
+    overflow:hidden;
+    background-color:darkcyan;
+    height: 24%;
+    padding-top: 21px;
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  text-align: center;
+  padding: 25px 5%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 120%;
+  padding-bottom: 80px;
+}
+
+#bulletlessList {
+  list-style-type: none;
+  padding-bottom: 250px;
+}
+
+p {
+  font-size: 90%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 0px 5%;
+  padding-bottom: 80px;
+  background-color:aliceblue;
+  font-weight: bold;
+}
+
+section {
+  background-color: aliceblue;
+  width: 100%;
+  height: 4500px;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* images below */
+
+#Bridge {
+  width:35%; 
+  float: left; 
+  padding-left: 7%;
+  padding-bottom: 70px;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#Bridge:hover {
+  rotate: 3deg;
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+#BridgeNight {
+  width:35%; 
+  float: right; 
+  padding-right: 7%; 
+  padding-top: 10%;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#BridgeNight:hover {
+  rotate: -3deg;
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+#Alcatraz {
+  width: 60%;
+  transition: .3s ease-in-out;
+}
+
+#Alcatraz:hover {
+  rotate: 3deg;
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+#road {
+  width: 20%;
+ float: right;
+ padding-top: 10%;
+ padding-right: 5%;
+ padding-left: 50px;
+ transition: .3s ease-in-out;
+}
+
+#road:hover {
+  rotate: -3deg;
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+#plane {
+  width: 25%;
+  float: left;
+  padding-top: 70px;
+  padding-right: 50px;
+  transition: .3s ease-in-out;
+}
+
+#plane:hover {
+  rotate: 3deg;
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+#crab {
+  width: 25%;
+  padding-top: 3%;
+  padding-left: 5%;
+  transition: .3s ease-in-out;
+}
+
+#crab:hover {
+  rotate: 3deg;
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+#FishMovie {
+  height: 500px;
+  padding-top: 5%;
+}
+
+#osakaAquarium {
+  height: 1000px;
+  padding-left: 4%;
+  transition: .3s ease-in-out;
+}
+
+#osakaAquarium:hover {
+  rotate: 2deg;
+  scale: 0.8
+}
+
+#penguin {
+  width: 30%;
+  padding-left: 5%;
+  transition: .3s ease-in-out;
+}
+
+#penguin:hover {
+  rotate: 1deg;
+  scale: 0.9;
+}
+
+#WhalesharkSmoothie {
+  height: 15%;
+  margin-left: 15%;
+  transition: .3s ease-in-out;
+}
+
+#WhalesharkSmoothie:hover {
+  rotate: 4deg;
+  scale: 0.9;
+}
+
+#nightMovie {
+  margin-left: 5%;
+  width:35%;
+}
+
+#redArch {
+  width: 15%;
+  transition: .3s ease-in-out;
+}
+
+#redArch:hover {
+  rotate: 1deg;
+}
+
+#NightGarden {
+  height: 400px;
+  margin-left: 7%;
+  transition: .3s ease-in-out;
+}
+
+#NightGarden:hover {
+  rotate: 2deg;
+}
+
+#SkyTree {
+  width: 20%;
+  float: right;
+  margin-right: 8%;
+  transition: .3s ease-in-out;
+}
+
+#SkyTree:hover {
+  rotate: -4deg;
+}
+
+#temple {
+  width: 20%;
+  margin-top: 4%;
+  margin-left: 3%;
+  transition: .3s ease-in-out;
+}
+
+#temple:hover {
+  rotate: 3deg;
+}
+
+#eiffelbottomsideview {
+  width: 20%;
+  margin-left: 4%;
+  transition: .3s ease-in-out;
+}
+
+#eiffelbottomsideview:hover {
+  scale: 0.95;
+  rotate: 4deg;
+}
+
+#eiffelBottomView {
+  width: 30%;
+  margin-left: 6%;
+  transition: .3s ease-in-out;
+}
+
+#eiffelBottomView:hover {
+  scale: 1.05;
+  rotate: -3deg;
+}
+
+#eiffelview {
+  width:40%;
+  margin-left: 6%;
+  transition: .3s ease-in-out;
+}
+
+#eiffelview:hover {
+  scale: 1.05;
+  opacity: 0.9;
+  rotate: 3deg;
+}
+
+#catacross {
+  width: 23%;
+  margin-top: 2%;
+  margin-left: 3%;
+  transition: .3s ease-in-out;
+}
+
+#catacross:hover {
+  scale:1.1;
+  rotate:5deg;
+}
+
+#cataheart {
+  width: 14%;
+  margin-top: 3%;
+  margin-left: 4%;
+  transition: .3s ease-in-out;
+}
+
+#cataheart:hover {
+  scale:0.95;
+  rotate:-6deg;
+}
+
+#cataplaque {
+  width: 20%;
+  margin-left: 5%;
+  transition: .3s ease-in-out;
+}
+
+#cataplaque:hover {
+  scale:1.08;
+  rotate:9deg;
+}
+
+#napoleonBedframe {
+  width: 20%;
+  margin-left: 3%;
+  transition: .3s ease-in-out;
+}
+
+#napoleonBedframe:hover {
+  scale: 1.1;
+  rotate: -3deg;
+}
+
+#napoleonCoffin {
+  width:15%;
+  margin-left: 5%;
+  transition: .3s ease-in-out;
+}
+
+#napoleonCoffin:hover {
+  rotate: -8deg;
+  scale:0.98;
+}
+
+#napoleonHouse {
+  width:20%;
+  margin-left: 4%;
+  transition: .3s ease-in-out;
+}
+
+#napoleonHouse:hover {
+  rotate: 3deg;
+}
+
+#napoleonRoof {
+  width:25%;
+  margin-left: 5%;
+  margin-top: -1000px;
+  transition: .3s ease-in-out;
+}
+
+#napoleonRoof:hover {
+  rotate: 7deg;
+  opacity: 0.9;
+}
+
+#napoleonStatue {
+  width: 20%;
+  margin-top: 3%;
+  margin-left: 3%;
+  transition: .3s ease-in-out;
+}
+
+#napoleonStatue:hover {
+  rotate:-3deg;
+  scale:0.9;
+}
+
+#eiffelNight {
+  width:20%;
+  margin-left: 3%;
+  transition: .3s ease-in-out;
+}
+
+#eiffelNight:hover {
+  rotate: 10deg;
+}
+
+#EiffelNightLaser {
+  width: 20%;
+  margin-left: 3%;
+  transition: .3s ease-in-out;
+}
+
+#EiffelNightLaser:hover {
+  rotate: 6deg;
+}
+
+#whaleskeleton {
+  width: 25%;
+  margin-right: 3%;
+  margin-top: -5%;
+  float: right;
+  transition: .3s ease-in-out;
+}
+
+#whaleskeleton:hover {
+  scale: 0.89;
+  rotate:8deg;
+}
+
+#bridgenight {
+  width: 15%;
+  float:right; margin-right: 2%;
+  transition: .3s ease-in-out;
+}
+
+#bridgenight:hover {
+  scale:0.9;
+  rotate:-3deg;
+}
+
+#fullbridgeNight {
+  width:15%;
+  float: right;
+  margin-right: 1%;
+  transition: .3s ease-in-out;
+}
+
+#fullbridgeNight:hover {
+  scale:0.9;
+  rotate:-3deg;
+}
+
+#banksycube {
+  width:10%;
+  margin-top: -2%;
+  float:right;
+  margin-right: 2%;
+  transition: .3s ease-in-out;
+}
+
+#banksycube:hover {
+  scale:0.9;
+  rotate:-3deg;
+}
+
+#winstonMoment {
+  width: 15%;
+  margin-left: 6%;
+  transition: .3s ease-in-out;
+}
+
+#winstonMoment:hover {
+  scale:0.9;
+  rotate:-3deg;
+}
